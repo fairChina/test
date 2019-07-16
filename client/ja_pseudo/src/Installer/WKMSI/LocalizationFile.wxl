@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization xmlns="http://schemas.microsoft.com/wix/2006/localization" Codepage="932" Culture="ja-jp">
+  <!-- Product Information -->
+  <String Id="Language">1041</String>
+  <String Id="ProductName">~Trend Micro Safe Lock ICS エディション~</String>
+  <String Id="ProductFullName">~Trend Micro Safe Lock ICS エディション~</String>
+  <String Id="Manufacturer">Trend Micro Inc.</String>
+
+  <!-- Service Information -->
+  <String Id="WKSrvDisplayName">Trend Micro Safe Lockサービス</String>
+  <String Id="WKSrvDescription">Trend Micro Safe Lockの管理</String>
+
+  <!-- Feature message -->
+  <String Id="ProductFeatureTitle">~Trend Micro Safe Lock ICS エディション~</String>
+  <String Id="ProductFeatureDescription">Trend Micro Safe Lockは、セキュリティソフトウェアまたはインターネット接続機能を備えていない工業用制御システム (ICS) やキオスク端末などの特定用途のコンピュータでの不要アプリケーションの実行を防ぎます。 </String>
+
+  <!-- Directory name -->
+  <String Id="CompanyDirectoryName">Trend Micro</String>
+  <String Id="ProductDirectoryName">Safe Lock</String>
+
+  <!-- UI Wordings-->
+  <String Id="WixUINext">次へ &gt;</String>
+  <String Id="WixUIBack">&lt; 戻る</String>
+  <String Id="WixUIYes">はい</String>
+  <String Id="WixUINo">いいえ</String>
+  <String Id="WixUIOK">OK</String>
+  <String Id="ExitDialogInstallTitle">インストール完了</String>
+  <String Id="ExitDialogInstallDescription">[ProductName]はインストールされました。</String>
+  <String Id="ExitDialogUninstallTitle">プログラムがアンインストールされました</String>
+  <String Id="ExitDialogUninstallDescription">このコンピュータから[ProductName]が削除されました。</String>
+  <String Id="UserExitTitle">~セットアップが中断されました~</String>
+  <String Id="FatalErrorTitle">[ProductName]のセットアップは完了前に中断されました</String>
+
+  <String Id="InstallDirDlgTitle">~インストール設定~</String>
+  <String Id="InstallDirDlgFolderLabel">インストールディレクトリ</String>
+  <String Id="InstallDirDlgChange">参照</String>
+  <String Id="InstallDirDlgOptionLabel">オプションコンポーネント</String>
+  <String Id="InstallDirDlgCheckNetworkVirus">ネットワークウイルス対策をインストール</String>
+  <String Id="InstallDirDlgNetworkVirusDescription">注意: ネットワークウイルス対策は製品のインストール後に個別にインストールすることはできません</String>
+  <String Id="InstallDirDlgAddStartMenu">[\[]スタート[\]] メニューに追加</String>
+  <String Id="InstallDirDlgAddDesktop">デスクトップアイコンを作成</String>
+  <String Id="InstallDirDlgAddSysTray">システムトレイアイコンを作成</String>
+
+  <String Id="LicenseAgreementDlgDescription">本製品の使用許諾契約書をご確認ください。</String>
+  <String Id="AuthPassword">パスワードが必要です</String>
+  <String Id="AuthPasswordDescription">[ProductName]をアンインストールするにはパスワードを入力してください。</String>
+  <String Id="PasswordSettingTitle"><![CDATA[製品のアクティベーションコードと管理者パスワードの作成]]></String>
+  <String Id="ActivationDescription">製品のアクティベーションコード</String>
+  <String Id="ActivationFormat">(形式: XX-XXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX)</String>
+  <String Id="PasswordSettingDlgTitle">[ProductName] セットアップ</String>
+  <String Id="PasswordSetting">管理者のパスワード</String>
+  <String Id="PasswordSettingDescription"><![CDATA[パスワードは8～64文字以内の英数字で指定してください。次の記号および空白は使用できません: | > < \ "]]></String>
+  <String Id="PasswordInput">パスワード:</String>
+  <String Id="PasswordInputVerify">パスワードの確認:</String>
+  <String Id="PasswordInvalid">パスワードが正しくありません。やりなおしてください。</String>
+  <String Id="PasswordInvalidNoMatch">一致するパスワードを入力してください。</String>
+  <String Id="PasswordInvalidNoCharSupp"><![CDATA[パスワードには英数字のみを使用してください。|、>、<、\、"、およびスペースは使用できません]]></String>
+  <String Id="PasswordInvalidLength">パスワードは、8～64文字で設定してください。</String>
+  <String Id="PasswordInvalidLock">パスワードは一時的にロックされました。しばらくしてからやりなおしてください。</String>
+  <String Id="UiExist">アンインストールする前に、[ProductName]画面およびサポートツール画面を閉じてください。</String>
+  <String Id="ActivationCodeEmpty">アクティベーションコードを入力してください。</String>
+  <String Id="ActivationCodeInvalid">アクティベーションコードが無効です。やりなおしてください。</String>
+  <String Id="RequiredAdmin">管理者権限が必要です。</String>
+  <String Id="Require2000orLater">このコンピュータは、ソフトウェアをインストールするためのシステム要件を満たしていません。詳細については、付属ドキュメントの「システム要件」を参照してください。</String>
+  <String Id="NotSupport64bit">このコンピュータは、ソフトウェアをインストールするためのシステム要件を満たしていません。詳細については、付属ドキュメントの「システム要件」を参照してください。</String>
+  <String Id="InvalidDirectoryDlg_Title">[ProductName]</String>
+  <String Id="InvalidDirectoryDlgTextNoSpace">このディスクには十分な空き容量がありません。別の場所を選択してください。</String>
+  <String Id="InvalidDirectoryDlgTextCommon">無効なパス</String>
+  <String Id="InvalidDirectoryDlgTextRoot">この場所にはソフトウェアをインストールできません。他のインストール先を選択してください。</String>
+  <String Id="InvalidDirectoryDlgTextTooLong">ソフトウェアをインストールするフォルダのパスは、180文字以下にしてください。他のインストール先を選択してください。</String>
+  <String Id="InvalidDirectoryDlgTextTooLongUTF8">指定のディレクトリにインストールできません。インストール先フォルダのパスが長すぎます。パスを短くし、再試行してください。</String>
+  <String Id="InvalidDirectoryDlgTextNotFix">このソフトウェアはハードディスクドライブのみにインストールできます。</String>
+  <String Id="InvalidDirectoryDlgTextSystem">インストールディレクトリが無効です。Safe LockをWindowsのシステムフォルダにインストールすることはできません。他のインストールディレクトリを指定するか、初期設定のディレクトリを使用して、再試行してください。</String>
+  <String Id="InvalidDirectoryDlgTextIllegalChar"><![CDATA[指定されたパスにインストールできません。インストールパスに含むことができるのは、システムで許可された英数字と記号のみです。次の記号および2バイト文字は使用できません:  / : * ? " < > |。有効な文字のみを使用してパスを指定し、再試行してください。]]></String>
+  <String Id="InvalidDirectoryDlgTextCaseSensitive">インストールディレクトリが無効です。Safe Lockを大文字と小文字を区別する属性が有効になっているディレクトリにインストールすることはできません。他のインストールディレクトリを指定して、再試行してください。</String>
+  <String Id="CompCheckDetectDlg_Title">互換性のないプログラムの検出</String>
+  <String Id="CompCheckDetectDlgText">このエージェントで互換性のないプログラムが検出されました。次のプログラムをアンインストールしてください。</String>
+  <String Id="CompModuleDetectDlg_Title">互換性のないファイルの検出</String>
+  <String Id="CompModuleDetectDlg_Text">このエージェントで互換性のないドライバまたはシステムアドオンファイルが検出されました。このファイルに関連するソフトウェアは検出されませんでした。続行するには、このファイル削除してください。互換性のないファイルを削除してもよろしいですか?</String>
+
+  <String Id="WelcomeDlg_Title">[ProductName]</String>
+  <String Id="WelcomeDlgDescription">インストール処理を開始するには、[\[]次へ[\]] をクリックします。</String>
+  <String Id="WelcomeDlgWarningDescription">この製品は、日本国著作権法および国際条約により保護されています。</String>
+  <String Id="WelcomeDlgWarningTitle">{\UI_Font_ArialRedBold8}警告:</String>
+  <String Id="WelcomeDlgTitle">{\UI_Font_ArialBold12}[ProductName]を購入していただきありがとうございます。</String>
+
+  <String Id="MaintenanceWelcomeDlg_Title">[ProductName]</String>
+  <String Id="MaintenanceWelcomeDlgDescription">始める前に、アクティベーションコードを後で参照できるように書き留めておいてください。</String>
+  <String Id="MaintenanceWelcomeDlgInst">このコンピュータからのソフトウェアの削除を開始するには、[\[]次へ[\]] をクリックします。</String>
+  <String Id="MaintenanceWelcomeDlgAcInfo">アクティベーションコード: </String>
+  <String Id="MaintenanceWelcomeDlgTitle">{\UI_Font_ArialBold8}[ProductName]のアンインストールの準備完了</String>
+  <String Id="MaintenanceWelcomeDlgAc">{\UI_Font_ArialBold8}[ACTIVATION_CODE]</String>
+  <String Id="MaintenanceWelcomeDlgNote">アンインストールする前に、[ProductName]画面およびサポートツール画面を閉じてください。</String>
+
+  <String Id="ProgressDlgTitleInstalling">~Trend Micro Safe Lock をインストールしています~</String>
+  <String Id="ProgressDlgInstallDescription">[ProductName] を [PRODUCTFOLDER] にインストールしています。</String>
+  <String Id="ProgressDlgTitleRemoving">~Trend Micro Safe Lock を削除しています~</String>
+  <String Id="ProgressDlgUninstallDescription">このコンピュータから[ProductName]を削除しています。</String>
+  <String Id="ProgressDlgUpgradeUninstallDescription">このエージェントから古いバージョンを削除しています</String>
+  <String Id="ProgressDlgUpgradeExportDescription">現在の設定をエクスポートしています</String>
+  <String Id="ProgressDlgUpgradeImportDescription">設定をインポートしています</String>
+  <String Id="ProgressDlgUnregisterClientDescription">管理サーバと通信しています</String>
+  <String Id="ProgressDlgInitializeListDescription">許可リストを初期化しています。この処理には時間がかかることがあります。</String>
+
+  <String Id="QuarantineFileExistsWarningDescription">隔離ファイルが隔離フォルダに存在します。アンインストールを続行しますか?</String>
+
+  <String Id="ShortcutMainName">~Trend Micro Safe Lock ICS エディション~</String>
+  <!--String Id="ShortcutRemoveName">Uninstall Trend Micro Safe Lock</String-->
+  <String Id="ShortcutReadmeName">お読みください</String>
+  <String Id="PrescanDlgDescription">本製品をインストールする前に、コンピュータをウイルス検索することをお勧めします。このセットアッププログラムは、本製品のインストール前に、コンピュータ上に潜むセキュリティ上のリスクを検索します。検索を実行することで、Safe Lockの許可リストに既知のセキュリティ上のリスクが含まれないようにすることができます。</String>
+  <String Id="PrescanDlgConfirmDescription">コンピュータを検索しますか?</String>
+  <String Id="PrescanDlgBtnScan">検索する</String>
+  <String Id="PrescanDlgBtnSkip">検索しない</String>
+  <String Id="PrescanDlgDetectDescription">脅威が検出されました。インストールを中止することをお勧めします。適切な処理を実行し、コンピュータとネットワークに脅威が存在しないことを確認してからセットアップを再度実行してください。</String>
+  <String Id="PrescanDlgDetectRadioBtnStop">中止</String>
+  <String Id="PrescanDlgDetectRadioBtnIgnore">続行 (推奨しません)</String>
+
+  <String Id="RequireRebootDlg_Title">[ProductName]</String>
+  <String Id="RequireRebootDlg_RebootReasonText_CleanupSucceededType">互換性のないファイルが削除されました。</String>
+  <String Id="RequireRebootDlg_RequireRebootText_CleanupSucceededType">インストールを続行するには、システムを再起動し、セットアップを手動で再度実行してください。今すぐシステムを再起動しますか?</String>
+  <String Id="RequireRebootDlg_RebootReasonText_CleanupFailedType">互換性のないファイルを削除できませんでした。</String>
+  <String Id="RequireRebootDlg_RequireRebootText_CleanupFailedType">システムを再起動してから、再試行してください。今すぐシステムを再起動しますか?</String>
+
+  <String Id="CancelDlgText">[ProductName] のセットアップを取り消しますか?</String>
+</WixLocalization>

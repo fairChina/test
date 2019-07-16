@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Codepage="1252" Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <!-- Product Information -->
+  <String Id="Language">1033</String>
+  <String Id="ProductName">Trend Micro Safe Lock ICS Edition</String>
+  <String Id="ProductFullName">Trend Micro Safe Lock ICS Edition</String>
+  <String Id="Manufacturer">Trend Micro Inc.</String>
+
+  <!-- Service Information -->
+  <String Id="WKSrvDisplayName">Trend Micro Safe Lock Service</String>
+  <String Id="WKSrvDescription">Manages Trend Micro Safe Lock</String>
+
+  <!-- Feature message -->
+  <String Id="ProductFeatureTitle">Trend Micro Safe Lock ICS Edition</String>
+  <String Id="ProductFeatureDescription">Trend Micro Safe Lock prevents unwanted applications from running on specific-use computers such as Industrial Control Systems (ICS) or kiosk terminals that do not have security software or an Internet connection. </String>
+
+  <!-- Directory name -->
+  <String Id="CompanyDirectoryName">Trend Micro</String>
+  <String Id="ProductDirectoryName">Safe Lock</String>
+
+  <!-- UI Wordings-->
+  <String Id="WixUINext">Next &gt;</String>
+  <String Id="WixUIBack">&lt; Back</String>
+  <String Id="WixUIYes">Yes</String>
+  <String Id="WixUINo">No</String>
+  <String Id="WixUIOK">OK</String>
+  <String Id="ExitDialogInstallTitle">Installation Complete</String>
+  <String Id="ExitDialogInstallDescription">[ProductName] has been successfully installed.</String>
+  <String Id="ExitDialogUninstallTitle">Program Uninstalled</String>
+  <String Id="ExitDialogUninstallDescription">You have successfully removed [ProductName] from this computer.</String>
+  <String Id="UserExitTitle">Setup was Interrupted</String>
+  <String Id="FatalErrorTitle">[ProductName] Setup ended prematurely</String>
+
+  <String Id="InstallDirDlgTitle">Installation Settings</String>
+  <String Id="InstallDirDlgFolderLabel">Installation Directory</String>
+  <String Id="InstallDirDlgChange">Browse</String>
+  <String Id="InstallDirDlgOptionLabel">Optional Components</String>
+  <String Id="InstallDirDlgCheckNetworkVirus">Install Network Virus Protection (Not configurable later)</String>
+  <String Id="InstallDirDlgNetworkVirusDescription">Note: Network Virus Protection cannot be installed individually after the product installation</String>
+  <String Id="InstallDirDlgAddStartMenu">Add to Start Menu</String>
+  <String Id="InstallDirDlgAddDesktop">Create a desktop icon</String>
+  <String Id="InstallDirDlgAddSysTray">Create a system tray icon</String>
+
+  <String Id="LicenseAgreementDlgDescription">[ProductName] is subject to the terms and conditions of the Trend Micro license agreement below. Please read it carefully.</String>
+  <String Id="AuthPassword">Password Required</String>
+  <String Id="AuthPasswordDescription">Please provide your password to uninstall [ProductName].</String>
+  <String Id="PasswordSettingTitle"><![CDATA[Product Activation Code & Create Administrator Password]]></String>
+  <String Id="ActivationDescription">Product Activation Code</String>
+  <String Id="ActivationFormat">(Format: XX-XXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX)</String>
+  <String Id="PasswordSettingDlgTitle">[ProductName] Setup</String>
+  <String Id="PasswordSetting">Administrator Password</String>
+  <String Id="PasswordSettingDescription"><![CDATA[The password must be 8 to 64 alphanumeric characters. The following characters are not supported:| > < \ " spaces.]]></String>
+  <String Id="PasswordInput">Password:</String>
+  <String Id="PasswordInputVerify">Confirm Password:</String>
+  <String Id="PasswordInvalid">The password is incorrect. Please try again.</String>
+  <String Id="PasswordInvalidNoMatch">Please type the same password both times.</String>
+  <String Id="PasswordInvalidNoCharSupp"><![CDATA[Do not use non-alphanumeric characters or following characters in your password: |,>,<,\," and space]]></String>
+  <String Id="PasswordInvalidLength">Your password must have between 8 and 64 characters.</String>
+  <String Id="PasswordInvalidLock">Locked. Please try later.</String>
+  <String Id="UiExist">Before uninstalling, close the [ProductName] console and Diagnostic Toolkit windows.</String>
+  <String Id="ActivationCodeEmpty">Please provide the Activation Code.</String>
+  <String Id="ActivationCodeInvalid">Invalid Activation Code. Please try again.</String>
+  <String Id="RequiredAdmin">Administrator privelages required.</String>
+  <String Id="Require2000orLater">Your computer does not meet the system requirements to install the software. Please refer to the System Requirements in the Administrator's Guide for more information.</String>
+  <String Id="NotSupport64bit">Your computer does not meet the system requirements to install the software. Please refer to the System Requirements in the Administrator Guide for more information.</String>
+  <String Id="InvalidDirectoryDlg_Title">[ProductName]</String>
+  <String Id="InvalidDirectoryDlgTextNoSpace">This disk does not have enough space. Please choose another location.</String>
+  <String Id="InvalidDirectoryDlgTextCommon">Invalid Path</String>
+  <String Id="InvalidDirectoryDlgTextRoot">You cannot install the software to this location. Please select another location.</String>
+  <String Id="InvalidDirectoryDlgTextTooLong">The path for the folder where you will install the software cannot exceed 180 characters. Please select another location.</String>
+  <String Id="InvalidDirectoryDlgTextTooLongUTF8">Unable to install to the specified directory. The destination folder path is too long. Specify a shorter path and try again.</String>
+  <String Id="InvalidDirectoryDlgTextNotFix">You can only install this software on a hard drive.</String>
+  <String Id="InvalidDirectoryDlgTextSystem">Installation directory is not valid. Safe Lock cannot be installed in Windows system folders. Specify a new installation directory or accept the default directory and try again.</String>
+  <String Id="InvalidDirectoryDlgTextIllegalChar"><![CDATA[Unable to install to the specified path. The installation path can only contain alphanumeric characters and common symbols allowed by the file system. The following characters are not supported: / : * ? " < > | and double-byte characters. Specify a path using only valid characters and try again.]]></String>
+  <String Id="InvalidDirectoryDlgTextCaseSensitive">Installation directory is not valid. Safe Lock cannot be installed in a directory where the case sensitive attribute has been enabled. Specify a new installation directory and try again</String>
+  <String Id="CompCheckDetectDlg_Title">Incompatible Program Detected</String>
+  <String Id="CompCheckDetectDlgText">Setup detected an incompatible program on this endpoint. Uninstall the program listed below:</String>
+  <String Id="CompModuleDetectDlg_Title">Incompatible File Detected</String>
+  <String Id="CompModuleDetectDlg_Text">Setup detected an incompatible driver or system add-on file on this endpoint. Setup did not detect any software associated with this file. To continue, remove the file. Do you want Setup to remove the incompatible file?</String>
+
+  <String Id="WelcomeDlg_Title">[ProductName]</String>
+  <String Id="WelcomeDlgDescription">Click [\[]Next[\]] to start the installation process.</String>
+  <String Id="WelcomeDlgWarningDescription">This program is protected by copyright laws and international treaties.</String>
+  <String Id="WelcomeDlgWarningTitle">{\UI_Font_ArialRedBold8}WARNING:</String>
+  <String Id="WelcomeDlgTitle">{\UI_Font_ArialBold12}Thank you for choosing to install [ProductName].</String>
+
+  <String Id="MaintenanceWelcomeDlg_Title">[ProductName]</String>
+  <String Id="MaintenanceWelcomeDlgDescription">Before getting started, please write down the Activation Code below for later use.</String>
+  <String Id="MaintenanceWelcomeDlgInst">Click [\[]Next[\]] to begin removing the software from this computer.</String>
+  <String Id="MaintenanceWelcomeDlgAcInfo">Activation Code:</String>
+  <String Id="MaintenanceWelcomeDlgTitle">{\UI_Font_ArialBold8}Ready to Uninstall [ProductName]</String>
+  <String Id="MaintenanceWelcomeDlgAc">{\UI_Font_ArialBold8}[ACTIVATION_CODE]</String>
+  <String Id="MaintenanceWelcomeDlgNote">Before uninstalling, close the [ProductName] console and Diagnostic Toolkit windows.</String>
+
+  <String Id="ProgressDlgTitleInstalling">Installing Trend Micro Safe Lock</String>
+  <String Id="ProgressDlgInstallDescription">Installing [ProductName] to [PRODUCTFOLDER].</String>
+  <String Id="ProgressDlgTitleRemoving">Removing Trend Micro Safe Lock</String>
+  <String Id="ProgressDlgUninstallDescription">Now removing [ProductName] from this computer.</String>
+  <String Id="ProgressDlgUpgradeUninstallDescription">Removing older versions from this endpoint</String>
+  <String Id="ProgressDlgUpgradeExportDescription">Exporting current settings</String>
+  <String Id="ProgressDlgUpgradeImportDescription">Importing settings</String>
+  <String Id="ProgressDlgUnregisterClientDescription">Communicating with Intelligent Manager</String>
+  <String Id="ProgressDlgInitializeListDescription">Initializing the Approved List. This may take some time to complete.</String>
+
+  <String Id="QuarantineFileExistsWarningDescription">Quarantined file(s) exists in quarantine folder. Would you like to continue uninstallation?</String>
+
+  <String Id="ShortcutMainName">Trend Micro Safe Lock ICS Edition</String>
+  <!--String Id="ShortcutRemoveName">Uninstall Trend Micro Safe Lock</String-->
+  <String Id="ShortcutReadmeName">ReadMe</String>
+  <String Id="PrescanDlgDescription">Trend Micro recommends you scan this endpoint for threats before continuing with the installation. The Setup program can scan this endpoint for security risks before installing the product. Scanning can prevent Safe Lock from including known security risks in the Approved List.</String>
+  <String Id="PrescanDlgConfirmDescription">Would you like Setup to scan this endpoint?</String>
+  <String Id="PrescanDlgBtnScan">Scan</String>
+  <String Id="PrescanDlgBtnSkip">Do Not Scan</String>
+  <String Id="PrescanDlgDetectDescription">Threats detected. Trend Micro recommends canceling the installation. Take appropriate measures to ensure that this endpoint and your network are clean, then run Setup again.</String>
+  <String Id="PrescanDlgDetectRadioBtnStop">Cancel installation</String>
+  <String Id="PrescanDlgDetectRadioBtnIgnore">Continue installation (not recommended)</String>
+
+  <String Id="RequireRebootDlg_Title">[ProductName]</String>
+  <String Id="RequireRebootDlg_RebootReasonText_CleanupSucceededType">Setup successfully removed the incompatible file.</String>
+  <String Id="RequireRebootDlg_RequireRebootText_CleanupSucceededType">To continue installation, restart your system and manually launch Setup again. Do you want to restart your system now?</String>
+  <String Id="RequireRebootDlg_RebootReasonText_CleanupFailedType">Setup was unable to remove the incompatible file.</String>
+  <String Id="RequireRebootDlg_RequireRebootText_CleanupFailedType">Restart your system and try again. Do you want to restart your system now?</String>
+
+  <String Id="CancelDlgText">Are you sure you want to cancel [ProductName] setup?</String>
+</WixLocalization>
